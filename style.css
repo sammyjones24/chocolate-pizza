@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+ body{
+  width: 1200px;
+ }
+ main {
+  width: 900px;
+}
+ header {
+  width: 900px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+ header *{
+  display: inline-block;
+}
+ h1{
+  font-family: 'Yellowtail', cursive;
+}
+ .hr1{
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.13);
+  width: 900px;
+  margin-bottom: 30px;
+}
+ h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+ .datepara {
+  font-size: 10px;
+  color: rgb(170, 170, 170);
+  margin-bottom: 15px;
+}
+ ul{
+  list-style-type: none;
+}
+ nav {
+  margin-left: 470px;
+  right: 0%;
+  vertical-align: 10px;
+}
+ #deliciousimg {
+  height: 50px;
+}
+ #imgDIV{
+  position: relative;
+  z-index: -1;
+}
+ #ingredientDIV{
+  position: absolute;
+  width: 900px;
+  z-index: 1;
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+}
+ #ingredientsList {
+  margin-bottom: 30px;
+}
+ #leftList{
+  float: left;
+}
+ #rightList{
+  float: right;
+}
+ footer{
+  margin-bottom: 50px;
+  width: 900px;
+}
+ .copyright{
+  text-align: center;
+  color: rgb(170, 170, 170);
+}
+ #filler {
+  margin-bottom: 30px;
+}
+ button {
+  background-color: rgb(216, 99, 15);
+  color: white;
+  height: 35px;
+  width: 150px;
+}
+ #footerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
